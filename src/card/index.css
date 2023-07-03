@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  min-height: 50px;
+}
+
+.card .logo {
+  margin-right: 10px;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4rem;
+  margin-top: 0.5rem;
+
+}
+
+.card .text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  margin-top: 0.5rem;
+}
+
+.card .text .title {
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+
+}
+
+.card .content {
+  text-align: left;
+}
